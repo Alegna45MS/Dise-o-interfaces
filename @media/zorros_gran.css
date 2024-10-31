@@ -1,0 +1,33 @@
+div{
+    border: solid 1px;
+}
+#contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 80px;
+    background-color: rgb(253, 221, 161);
+    color: rgb(206, 134, 0);
+}
+#segundoContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#imagenes{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+    margin: 20px;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}

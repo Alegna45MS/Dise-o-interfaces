@@ -1,0 +1,173 @@
+
+body{
+    width: 100%;
+}
+#personaje{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 47%;
+
+}
+#cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 30%;
+    border: solid 1px;
+}
+
+#fila2C,#fila4C{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(255, 244, 222);
+}
+#cuadrado1,#cuadrado2,#cuadrado3,#cuadrado4{
+    background-color: pink;
+    height: 15px;
+    width: 15px;
+    
+}
+
+#fila1C,#fila3C,#fila5C,#fila7C,#fila8C,#fila9C,#fila11C{
+    height: 15px;
+    background-color: rgb(255, 244, 222);
+
+}
+#ceja1,#ceja2{
+    height: 100%;
+    background-color: black;
+    width: 70px;
+}
+#fila6C{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    height: 35px;
+    background-color: rgb(255, 244, 222);
+}
+#fila8C{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    height: 20px;
+}
+#ojo1,#ojo2{
+    height: 100%;
+    background-color: black;
+    width: 30px;
+}
+#fila10C{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    background-color: rgb(255, 244, 222);
+}
+#boca{
+    height: 100%;
+    background-color: rgb(255, 158, 174);
+    width: 80px;
+
+}
+#fila9C,#fila11C{
+    height: 30px;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+#hombroIzq,#hombroDer,#torso,#partePiernaIzq,#partePiernaDer,#entrepierna,#piernaIzq,#piernaDer{
+    background-color: orange;
+}
+#fila1,#fila2,#fila3,#fila4,#fila5,#fila6,#fila7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#torso{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#cuadrado{
+    background-color: yellow;
+    height: 20%;
+    width: 15%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#parteBrazoIzq,#parteBrazoDer,#BrazoIzq,#BrazoDer,#cuello,#manoIzq,#manoDer{
+    background-color: rgb(255, 244, 222);
+}
+#parteBrazoIzq,#parteBrazoDer{
+    width: 6%;
+    height: 30px;
+}
+#hombroIzq,#hombroDer{
+    width: 11%;
+}
+#cuello{
+    width: 8%;
+}
+#torso{
+    width: 30%;
+    height: 150px;
+}
+#brazoIzq,#brazoDer{
+    width: 6%;
+}
+#fila3{
+    height: 15px;
+}
+#muñequeraIzq,#muñequeraDer{
+    width: 6%;
+    background-color: rgb(35, 80, 204);
+
+}
+#cinturon{
+    width:30.5%;
+    background-color: rgb(35, 80, 204);
+}
+#fila4{
+    height: 28px;
+}
+#manoIzq,#manoDer{
+    width: 6.2%;
+}
+#partePiernaIzq,#partePiernaDer{
+    width: 9.8%;
+}
+#parteCinturonIzq,#parteCinturonDer{
+    width: 2%;
+    background-color: rgb(35, 80, 204);
+}
+#entrepierna{
+    width: 6.5%;
+}
+#fila5,#fila6,#fila7{
+    display: flex;
+    flex-direction: row;
+    gap: 11.2%;
+}
+#piernaIzq,#piernaDer{
+    width: 9.5%;
+    height: 140px;
+}
+#calcetinIzq,#calcetinDer{
+    width: 9.5%;
+    height: 5px;
+}
+#zapatoIzq,#zapatoDer{
+    width: 9.5%;
+    background-color: rgb(35, 80, 204);
+    height: 25px;
+}
+
+
+
+

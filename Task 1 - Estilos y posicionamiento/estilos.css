@@ -1,0 +1,74 @@
+
+body{
+    box-sizing: border-box;
+}
+div{
+    border:solid 1px;
+}
+#cabecera{
+    position: sticky;
+    display: flex;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+
+
+}
+#caja1,#caja2,#caja3{
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+
+}
+#caja1{
+    margin-left: 800px;
+}
+#caja1:hover{
+    background-color: aquamarine;
+}
+#caja2:hover{
+    background-color: greenyellow;
+}
+#caja3:hover{
+    background-color: violet;
+}
+
+#imagenes{
+    display: inline-block;
+    width: 610px;
+    height: 610px;
+
+}
+#texto{
+    width: 500px;
+    float: right; 
+}
+
+#titulo,#tituloFormulario,#tituloPokeball{
+    text-align: center;
+}
+#pokeball{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+span{
+    color: red;
+}
+#tituloFormulario,#tituloPokeball{
+    color: rgb(54, 77, 191);
+}
+fieldset{
+    width: 500px;
+    margin:auto
+}
+fieldset div,#boton{
+    border: none;
+}
+button{
+    position: relative;
+    left: 65%;
+    bottom: 65px;
+}

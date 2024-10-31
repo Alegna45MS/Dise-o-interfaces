@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+        <div id="cabecera">
+            <div id="caja1">Inicio</div>
+            <div id="caja2">Horario</div>
+            <div id="caja3">Formulario</div>
+        </div>
+        <div id="cajaTextoImg">
+        <div id="imagenes">
+            <img src="imagenes/monalisa.jpg" width="300px" height="300px">
+            <img src="imagenes/davinci.jpg" width="300px" height="300px">
+            <img src="imagenes/goya.jpg" width="300px" height="300px">
+            <img src="imagenes/william.jpg" width="300px" height="300px">
+        </div>
+        <div id="texto">
+            <span><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2></span>
+            Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+        <div id="cajaPokeball">
+            <div id="tituloPokeball">
+                <h1>POKEBALL</h1>
+            </div>
+            <div id="pokeball">
+                <img src="imagenes/velozball.jpg" width="300px" height="300px">
+            </div>
+        </div>
+        <div id="cajaFormulario">
+            <div id="tituloFormulario">
+                <h1>FORMULARIO</h1>
+            </div>
+            <div id="formulario">
+                <fieldset>
+                    <form action="/pagDestinoServidor" method="post"></form>
+                    <legend>Datos de pago</legend>
+                    <span>*</span>Indica un campo obligatorio
+
+                    <div>
+                        <label for="nombre-titular">Nombre el titular de la tarjeta <span>*</span></label>
+                        <input type="text" id="nombre-titular" name="titular" required>
+                    </div>
+
+                    <div>
+                        <label for="numero-tarjeta">Número de la Tarjeta <span>*</span></label>
+                        <input type="number" id="numero-tarjeta" name="tarjeta" required>
+                    </div>
+
+                    <div>
+                        <label for="fecha-vencimiento">Fecha de vencimiento<span>*</span></label>
+                        <input type="date" name="fecha-vencimiento" id="fecha-vencimiento" required>
+                    </div>
+
+                    <div>
+                        <label for="ccv">CCV <span>*</span></label>
+                        <input type="number" id="ccv" name="ccv" required>
+                    </div>
+
+                </fieldset>
+                <div id="boton">
+                    <button type="submit">Validar</button>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>

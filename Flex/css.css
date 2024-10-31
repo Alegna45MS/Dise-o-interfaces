@@ -1,0 +1,31 @@
+@media only screen and (max-width: 100px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+div{
+    border:solid 1px
+}
+
+#contenedor{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 50%;
+    height: 900px
+
+}
+
+#c3,#c4{
+    background-color: red;
+}
+#c6,#c10{
+    background-color: aqua;
+}
+#c8,#c12,#c16{
+    background-color: blue;
+}
+#c13{
+    background-color: rgb(61, 61, 61);
+}

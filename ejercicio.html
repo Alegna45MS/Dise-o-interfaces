@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Barra lateral fija */
+        .barra-lateral {
+            width: 20%;
+            background-color: #2978c8;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        .barra-lateral ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .barra-lateral ul li {
+            margin: 15px 0;
+        }
+
+        .barra-lateral ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .barra-lateral ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contenido desplazable */
+        .contenido {
+            width: 80%;
+            margin-left: 20%;
+            padding: 20px;
+            height: 100vh;
+            overflow-y: scroll;
+            box-sizing: border-box;
+        }
+
+        .contenido h1 {
+            font-size: 28px;
+            color: #34495e;
+        }
+
+        .contenido p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="barra-lateral">
+        <ul>
+            <li><a href="#">Enlace 1</a></li>
+            <li><a href="#">Enlace 2</a></li>
+            <li><a href="#">Enlace 3</a></li>
+            <li><a href="#">Enlace 4</a></li>
+            <li><a href="#">Enlace 5</a></li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+        <h1>Título del Contenido</h1>
+        <p>
+            Este es el texto del contenido que se desplazará cuando el usuario haga scroll. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur 
+            felis a eros suscipit, in fermentum erat gravida. Quisque malesuada nisi id augue 
+            dignissim, et fermentum ligula posuere. Aliquam erat volutpat. Curabitur tincidunt 
+            mauris vitae nulla vehicula, sit amet consectetur nunc finibus.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur 
+            felis a eros suscipit, in fermentum erat gravida. Quisque malesuada nisi id augue 
+            dignissim, et fermentum ligula posuere. Aliquam erat volutpat. Curabitur tincidunt 
+            mauris vitae nulla vehicula, sit amet consectetur nunc finibus.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur 
+            felis a eros suscipit, in fermentum erat gravida. Quisque malesuada nisi id augue 
+            dignissim, et fermentum ligula posuere. Aliquam erat volutpat. Curabitur tincidunt 
+            mauris vitae nulla vehicula, sit amet consectetur nunc finibus.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur 
+            felis a eros suscipit, in fermentum erat gravida. Quisque malesuada nisi id augue 
+            dignissim, et fermentum ligula posuere. Aliquam erat volutpat. Curabitur tincidunt 
+            mauris vitae nulla vehicula, sit amet consectetur nunc finibus.
+        </p>
+    </div>
+
+</body>
+</html>

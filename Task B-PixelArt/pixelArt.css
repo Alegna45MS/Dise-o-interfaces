@@ -1,0 +1,465 @@
+
+#contenedor {
+  display: grid;
+  grid-template-columns: 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3%;
+  grid-template-rows: 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 3%;
+  width: 70%;
+  height: 1000px;
+}
+#c2,#c6,#c19,#c27,#c50,#c62,#c65,#c77,#c80,#c86,#c137,
+#c134,#c139,#c143,#c146,#c151,#c154,#c159,#c162,#c175,
+#c165 {
+  background-color: black;
+}
+#c4,#c10,#c14,#c21,#c25,#c63,#c58,#c67,
+#c69,#c73,#c75,#c83,#c96,#c108,#c119,#c120,
+#c133,#c141 {
+  background-color: rgb(203, 127, 56);
+}
+#c11,#c13,#c22,#c24,#c30,#c33,#c38,#c41,#c43,#c45,
+#c48,#c52,#c54,#c57,#c60,#c70,#c72,#c81,#c91,#c97,
+#c107,#c110,#c118,#c123,#c124 {
+  background-color: rgb(231, 177, 107);
+}
+#c8,#c16,#c39,#c47,#c127,#c140,#c136,#c152,#c145,#c160 {
+  background-color: grey;
+}
+#c12,#c23,#c31,#c34,#c35,#c32,#c40,#c42,
+#c44,#c46,#c68,#c74,#c82,#c84,#c111,#c117 {
+  background-color: rgb(255, 230, 87);
+}
+#c29,#c36,#c37,#c49,#c53,#c59,#c90,#c92,#c112,#c116,
+#c122,#c125,#c130 {
+  background-color: rgb(61, 25, 25);
+}
+#c51,#c61,#c66,#c76,#c85,#c89,#c93,#c98,#c102,#c106,
+#c114,#c128,#c132{
+  background-color: rgb(255, 236, 175);
+}
+#c56,#c71{
+  background-color: rgb(209, 59, 59);
+}
+#c100,#c104,#c169,#c171,#c180{
+  background-color: rgb(41, 101, 230);
+}
+#c113,#c115,#c173,#c167,#c179,#c181,#c185,#c186,#c191,#c192{
+  background-color: rgb(254, 189, 228);
+}
+#c121,#c126,#c129,#c131,#c147,#c158,#c166,#c168,#c172,
+#c174,#c184,#c187,#c190,#c193{
+  background-color: rgb(238, 114, 205);
+}
+#c138,#c149,#c155,#c157,#c178,#c182,#c189,#c197,#c194{
+  background-color: rgb(136, 77, 230);
+}
+#c148,#c150,#c156,#c170{
+  background-color: yellow;
+}
+
+#c1 {
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+#c3 {
+  grid-row: 1;
+  grid-column: 5/8;
+}
+#c4 {
+  grid-row: 1;
+  grid-column: 8/12;
+}
+#c5 {
+  grid-row: 1;
+  grid-column: 12/15;
+}
+#c6 {
+  grid-row: 1;
+  grid-column: 15;
+}
+#c7 {
+  grid-row: 1/3;
+  grid-column: 16/19;
+}
+#c8 {
+  grid-row: 2;
+  grid-column: 4;
+}
+#C9 {
+  grid-row: 2;
+  grid-column: 5;
+}
+#C10 {
+  grid-row: 2;
+  grid-column: 6;
+}
+#c11 {
+  grid-row: 2;
+  grid-column: 7;
+}
+#c12 {
+  grid-row: 2;
+  grid-column: 8/12;
+}
+#c18 {
+  grid-row: 3/7;
+  grid-column: 1/3;
+}
+#c19 {
+  grid-row: 3/5;
+  grid-column: 3;
+}
+#c20 {
+  grid-row: 3/7;
+  grid-column: 4;
+}
+#c21 {
+  grid-row: 3;
+  grid-column: 5;
+}
+#c22 {
+  grid-row: 3;
+  grid-column: 6;
+}
+#c23 {
+  grid-row: 3/7;
+  grid-column: 7/13;
+}
+#c24 {
+  grid-row: 3;
+  grid-column: 13;
+}
+#c25 {
+  grid-row: 3;
+  grid-column: 14;
+}
+#c26 {
+  grid-row: 3/7;
+  grid-column: 15;
+}
+#c27 {
+  grid-row: 3/5;
+  grid-column: 16;
+}
+#c28 {
+  grid-row: 3/7;
+  grid-column: 17/19;
+}
+#c29 {
+  grid-row: 5/8;
+  grid-column: 3;
+}
+#c30 {
+  grid-row: 4;
+  grid-column: 5;
+}
+#c31 {
+  grid-row: 4;
+  grid-column: 6;
+}
+#c32 {
+  grid-row: 4;
+  grid-column: 13;
+}
+#c33 {
+  grid-row: 4;
+  grid-column: 14;
+}
+#c34 {
+  grid-row: 5/7;
+  grid-column: 5/7;
+}
+#c35 {
+  grid-row: 5/7;
+  grid-column: 13/15;
+}
+#c36 {
+  grid-row: 5/8;
+  grid-column: 16;
+}
+
+#c40 {
+  grid-row: 7/10;
+  grid-column: 5;
+}
+#c42 {
+  grid-row: 7;
+  grid-column: 7/9;
+}
+#c43 {
+  grid-row: 7;
+  grid-column: 9/11;
+}
+#c44 {
+  grid-row: 7;
+  grid-column: 11/13;
+}
+#c46 {
+  grid-row: 7/10;
+  grid-column: 14;
+}
+#c54{
+  grid-row: 8;
+  grid-column: 7/9;
+}
+#c55{
+  grid-row: 8;
+  grid-column: 9;
+}
+#c56{
+  grid-row: 8;
+  grid-column: 10;
+}
+#c57{
+  grid-row: 8;
+  grid-column: 11/13;
+}
+#c58{
+  grid-row: 8;
+  grid-column: 13;
+}
+#c59{
+  grid-row: 8;
+  grid-column: 15;
+}
+#c60{
+  grid-row: 8;
+  grid-column: 16;
+}
+#c61{
+  grid-row: 8;
+  grid-column: 17;
+}
+#c62{
+  grid-row: 8;
+  grid-column: 18;
+}
+#c67{
+  grid-row: 9/12;
+  grid-column: 4;
+}
+#c71{
+  grid-row: 9;
+  grid-column: 9/11;
+}
+#c75{
+  grid-row: 9/12;
+  grid-column: 15;
+}#c79{
+  grid-row: 10/12;
+  grid-column:1/3;
+}
+#c82{
+  grid-column: 6/9;
+}
+#c83{
+  grid-column: 9/11;
+}
+#c84{
+  grid-column: 11/14;
+}
+#c87{
+  grid-row: 10/12;
+  grid-column:17/19;
+}
+#c90{
+  grid-row: 11;
+  grid-column:6/8;
+}
+#c91{
+  grid-row: 11;
+  grid-column:8/12;
+}
+#c92{
+  grid-row: 11;
+  grid-column:12/14;
+}
+
+/*Segunda mitad*/
+
+#c95{
+  grid-row: 12/18;
+  grid-column:1/3;
+}
+#c102{
+  grid-row:12;
+  grid-column:9/11;
+}
+#c109{
+  grid-row: 12/18;
+  grid-column:17/19;
+}
+#c110{
+  grid-row: 13/16;
+  grid-column:3;
+}
+#c111{
+  grid-row: 13/15;
+  grid-column:4;
+}
+#c113{
+  grid-row: 13;
+  grid-column:6/8;
+}
+#c114{
+  grid-row: 13/15;
+  grid-column:8/12;
+}
+#c115{
+  grid-row:13;
+  grid-column:12/14;
+}
+#c117{
+  grid-row: 13/15;
+  grid-column:15;
+}
+#c118{
+  grid-row: 13/16;
+  grid-column:16;
+}
+#c119{
+  grid-row: 16;
+  grid-column:3;
+}
+#c120{
+  grid-row: 15;
+  grid-column:4;
+}
+#c127{
+  grid-row: 16;
+  grid-column:4;
+}
+#c128{
+  grid-row: 15/17;
+  grid-column:5;
+}
+#c130{
+  grid-row: 15;
+  grid-column:7/13;
+}
+#c132{
+  grid-row: 15/17;
+  grid-column: 14;
+}
+#c134{
+  grid-row: 17;
+  grid-column: 3;
+}
+#c135{
+  grid-row: 17;
+  grid-column: 4;
+}
+#c136{
+  grid-row: 17;
+  grid-column: 5;
+}
+#c137{
+  grid-row: 16/18;
+  grid-column: 6;
+}
+#c138{
+  grid-row: 16;
+  grid-column: 7/13;
+}
+#c142{
+  grid-row: 18;
+  grid-column: 1;
+}
+#c143{
+  grid-row: 18;
+  grid-column: 2;
+}
+#c144{
+  grid-row: 18;
+  grid-column: 3;
+}
+#c145{
+  grid-row: 18;
+  grid-column: 4;
+}
+#c146{
+  grid-row: 18;
+  grid-column: 5;
+}
+#c147{
+  grid-row: 18;
+  grid-column: 6;
+}
+#c149{
+  grid-row: 17;
+  grid-column: 8/12;
+}
+#c156{
+  grid-row: 18;
+  grid-column: 8/12;
+}
+#c164{
+  grid-row: 19;
+  grid-column: 1/3;
+}
+#c165{
+  grid-row: 19;
+  grid-column: 3/5;
+}
+#c170{
+  grid-row: 19;
+  grid-column: 9/11;
+}
+#c175{
+  grid-row: 19;
+  grid-column: 15/17
+}
+#c176{
+  grid-row: 19;
+  grid-column: 17/19
+}
+#c177{
+  grid-row: 20/24;
+  grid-column: 1/4;
+}
+#c178{
+  grid-row: 20/22;
+  grid-column: 4;
+}
+#c179{
+  grid-row: 20;
+  grid-column: 5/8;
+}
+#c180{
+  grid-row: 20/23;
+  grid-column:8/12 ;
+}
+#c181{
+  grid-row: 20;
+  grid-column: 12/15;
+}
+#c182{
+  grid-row: 20/22;
+  grid-column: 15;
+}
+#c183{
+  grid-row: 20/24;
+  grid-column: 16/19;
+}
+#c185{
+  grid-row: 21;
+  grid-column: 6/8;
+}
+#c186{
+  grid-row: 21;
+  grid-column: 12/14;
+}
+#c196{
+  grid-row: 23;
+  grid-column: 4/7;
+}
+#c197{
+  grid-row: 23;
+  grid-column:7/13 ;
+}
+#c198{
+  grid-row: 23;
+  grid-column: 13/16;
+}
+
+
+
