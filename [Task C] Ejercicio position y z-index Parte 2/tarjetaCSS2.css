@@ -1,0 +1,60 @@
+#tarjeta1, #tarjeta2, #tarjeta3, #tarjeta4 {
+    background-image: url(gato-feliz.jpg);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+#tarjeta1 {
+    top: 0;
+    left: 0;
+}
+
+#tarjeta2 {
+    top: 0;
+    left: 420px; 
+}
+
+#tarjeta3 {
+    top: 260px;
+    left: 0;
+}
+
+#tarjeta4 {
+    top: 260px;
+    left: 420px;
+}
+
+#logo1, #logo2, #logo3, #logo4 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+#nombre1, #nombre2, #nombre3, #nombre4 {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4 {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
